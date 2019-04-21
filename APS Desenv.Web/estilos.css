@@ -1,0 +1,60 @@
+p{
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  size:30px;
+  text-indent: 25px;
+
+}
+body {
+  background-image:url('imagens/azul.jpg');
+}
+h1 {
+ text-align: center;
+ text-indent: 50px;
+ color:white;
+ font-family:Arial, Helvetica, sans-serif;
+
+}
+h4{
+  text-align: ;
+  text-indent: 50px;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+nav#Menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute; /* posição absoluta, no extremo da página */
+  top:45px;
+  left:480px;
+  align: center;
+}
+nav#Menu li { /*formatação da lista, e cor de transição*/
+  display: ;
+  background-color: #dddddd;
+  padding: 9px;
+  margin: 6px;
+  transition:1s;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 9px;
+
+
+}
+nav#Menu li:hover {
+  background-color: #606060;
+  transform: scale(1.08);
+}
+nav#Menu h2{
+  display: none;
+}
+nav#Menu a { /* formatação do link */
+  color:black;
+  text-decoration: none;
+}
+nav#Menu a:hover { /* transição para sublinhado */
+  color: #ffffff;
+  transition:0.5s;
+  text-decoration: underline;
+}
