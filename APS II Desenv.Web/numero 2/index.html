@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notas de Alunos</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+</head>
+
+<body>
+
+
+
+    <div row="row col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Davi Azevedo Silva Campos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active col-md-12">
+                        <a class="nav-link" href="../index.html">Voltar <span class="sr-only">(página atual)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container col-md-6 ">
+                    <br>
+        <div class="row m-auto">
+            <h1> Maior e Menor Nota</h1>
+            <p class="lead">Dados nome e nota de cada aluno de uma turma.</p>
+            <p class="lead">Determinar a maior e a menor nota obtidas por essa turma.</p>
+        </div>
+        <div class=" form-group row col-md-6 float-left  ">
+            <input type="text" class="form-control" placeholder="Nome" id="nome">
+        </div>
+
+        <label for="example-number-input" class=""></label>
+        <div class="col-md-4 float-left">
+            <input class="form-control" placeholder="Nota" type="number" value="" id="nota">
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="receber()">Inserir</button>
+        <div class="row">
+        <br>
+        </div>
+
+        <div class="float-left">
+            <div id="pegar" class="d-inline p-3 mb-2 bg-success text-white">Maior nota:</div>
+            <div id="pegar2" class="d-inline p-3 mb-2 bg-danger text-white">Menor nota:</div>
+        </div>
+        <div class="row">
+            <br>
+            </div>
+            <div class="row">
+                <br>
+                </div>
+        
+        <div class="container-col-md-6">
+        <table border="1" id="tabela" class="table">
+            <thead class="thead-dark">
+
+                <th>Nome</th>
+                <th>Nota</th>
+        </table>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
