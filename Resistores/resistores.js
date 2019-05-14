@@ -4,4 +4,3 @@ function resistor(cor) {
      for (let i = 0; i < cor.length;i++) numero = numero + String(array.indexOf(cor[i]))
      return (Number(numero))
  }
- console.log(resistor(["Marrom", "Amarelo"]))
